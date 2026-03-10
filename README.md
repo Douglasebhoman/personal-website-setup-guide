@@ -46,7 +46,8 @@ Anyone who wants to build a personal website with a professional setup — no pr
 📄 [github-pages-domain-email-guide.md](./github-pages-domain-email-guide.md)
 
 Also published on Hashnode:
-🌐 [douglasebhoman.com](...)
+🌐 [douglasebhoman.com](https://douglasebhoman.com)
+
 ---
 
 ## About the Author
