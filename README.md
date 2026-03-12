@@ -46,7 +46,7 @@ Anyone who wants to build a personal website with a professional setup — no pr
 📄 [github-pages-domain-email-guide.md](./github-pages-domain-email-guide.md)
 
 Also published on Hashnode:
-🌐 [douglasebhoman.com](https://douglasebhoman.com)
+🌐 [douglasebhoman.com](https://douglasebhoman.hashnode.dev/how-to-build-a-personal-website-with-a-custom-domain-and-professional-email)
 
 ---
 
@@ -56,4 +56,4 @@ Written by **Douglas Ebhoman** — Technical Writer & Documentation Specialist b
 
 - Website: [douglasebhoman.com](https://douglasebhoman.com)
 - LinkedIn: [linkedin.com/in/douglas-ebhoman-757329289](https://linkedin.com/in/douglas-ebhoman-757329289)
-- Hashnode: [git-and-github-for-technical-writers.hashnode.dev](https://git-and-github-for-technical-writers.hashnode.dev)
+- Hashnode: [git-and-github-for-technical-writers.hashnode.dev](https://douglasebhoman.hashnode.dev/how-to-build-a-personal-website-with-a-custom-domain-and-professional-email)
