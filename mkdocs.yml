@@ -31,11 +31,11 @@ extra_css:
 
 nav:
   - Home: index.md
-  - GitHub Pages: github-pages.md
-  - Domain Registration: domain-registration.md
-  - DNS Configuration: dns-configuration.md
-  - Professional Email: professional-email.md
-  - Quick Reference: quick-reference.md
+  - GitHub Pages: part-1-github-pages.md
+  - Domain Registration: part-2-domain-registration.md
+  - DNS Configuration: part-3-dns-configuration.md
+  - Professional Email: part-4-professional-email.md
+  - Quick Reference: part-5-quick-reference.md
   - Troubleshooting: troubleshooting.md
 
 markdown_extensions:
