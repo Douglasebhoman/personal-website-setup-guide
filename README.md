@@ -1,59 +1,76 @@
 # Personal Website Setup Guide
 
-A practical guide to building a personal website with a custom domain and professional email — using GitHub Pages, Cloudflare, and Gmail.
+Most personal website guides stop at hosting. This one covers the complete setup: a live website, a custom domain, HTTPS, and a professional email address using your own domain, at no additional cost beyond the domain registration itself.
+
+Built with GitHub Pages, Cloudflare, and Gmail. No paid hosting. No email subscription required.
+
+**Live documentation site:** [douglasebhoman.com/personal-website-setup-guide](https://douglasebhoman.com/personal-website-setup-guide/)
+
+No prior experience with GitHub, DNS, or email configuration is required. Every step is explained from scratch.
 
 ---
 
-## What This Repository Contains
+## What this guide covers
 
-| File | Description |
-|------|-------------|
-| `github-pages-domain-email-guide.md` | The complete setup guide |
+| Page | What it covers |
+|------|---------------|
+| [GitHub Pages](docs/part-1-github-pages.md) | Create a repository, add your HTML file, and deploy a live website for free |
+| [Domain Registration](docs/part-2-domain-registration.md) | Purchase a custom domain through Cloudflare Registrar |
+| [DNS Configuration](docs/part-3-dns-configuration.md) | Link your domain to GitHub Pages using DNS records and enable HTTPS |
+| [Professional Email](docs/part-4-professional-email.md) | Set up a custom domain email address that sends and receives through Gmail |
+| [Quick Reference](docs/part-5-quick-reference.md) | All DNS records and configuration values in one place |
+| [Troubleshooting](docs/troubleshooting.md) | Solutions to the most common problems at each stage |
 
----
-
-## What the Guide Covers
-
-- **Part 1 — GitHub Pages:** Create a repository, add your HTML file, and deploy a live website for free
-- **Part 2 — Domain Registration:** Purchase a custom domain through Cloudflare Registrar
-- **Part 3 — Custom Domain Setup:** Link your domain to GitHub Pages using DNS records, and enable HTTPS
-- **Part 4 — Professional Email:** Set up a custom domain email address that sends and receives through Gmail — no paid email hosting required
-
-Each part includes a troubleshooting section covering the real problems you are likely to run into, based on firsthand experience.
+The entire system is free except for the domain name itself, which costs approximately $10 to $12 USD per year.
 
 ---
 
-## Who This Guide Is For
+## Repository structure
 
-Anyone who wants to build a personal website with a professional setup — no prior experience with GitHub, DNS, or email configuration required. Every step is explained from scratch.
+```
+personal-website-setup-guide/
+├── mkdocs.yml
+├── README.md
+└── docs/
+    ├── index.md
+    ├── part-1-github-pages.md
+    ├── part-2-domain-registration.md
+    ├── part-3-dns-configuration.md
+    ├── part-4-professional-email.md
+    ├── part-5-quick-reference.md
+    ├── troubleshooting.md
+    └── stylesheets/
+        └── brand.css
+```
 
 ---
 
-## Tools Used
+## Tools used
 
 | Tool | Purpose | Cost |
 |------|---------|------|
 | GitHub Pages | Website hosting | Free |
-| Cloudflare Registrar | Domain registration | ~$10–12/year |
+| Cloudflare Registrar | Domain registration | Approximately $10 to $12 USD per year |
 | Cloudflare DNS | DNS management | Free |
 | Cloudflare Email Routing | Email receiving | Free |
 | Gmail SMTP | Email sending | Free |
 
 ---
 
-## Read the Guide
+## Publishing workflow
 
-📄 [github-pages-domain-email-guide.md](./github-pages-domain-email-guide.md)
-
-Also published on Hashnode:
-🌐 [douglasebhoman.com](https://douglasebhoman.hashnode.dev/how-to-build-a-personal-website-with-a-custom-domain-and-professional-email)
+This guide is version-controlled and deployed via GitHub Actions, the same workflow described in the guide itself.
 
 ---
 
-## About the Author
+## About the author
 
-Written by **Douglas Ebhoman** — Technical Writer & Documentation Specialist based in Prague.
+**Douglas Ebhoman** is a technical writer based in Prague who builds documentation systems for DevTools and SaaS companies.
 
-- Website: [douglasebhoman.com](https://douglasebhoman.com)
-- LinkedIn: [linkedin.com/in/douglas-ebhoman-757329289](https://linkedin.com/in/douglas-ebhoman-757329289)
-- Hashnode: [git-and-github-for-technical-writers.hashnode.dev](https://douglasebhoman.hashnode.dev/how-to-build-a-personal-website-with-a-custom-domain-and-professional-email)
+- [douglasebhoman.com/cv](https://douglasebhoman.com/cv)
+- [LinkedIn](https://linkedin.com/in/douglas-ebhoman-757329289)
+- [douglasebhoman.com](https://douglasebhoman.com)
+
+---
+
+> Documentation is infrastructure. I treat it that way.

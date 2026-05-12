@@ -1,0 +1,65 @@
+site_name: Personal Website Setup Guide
+site_url: https://douglasebhoman.com/personal-website-setup-guide/
+site_author: Douglas Ebhoman
+site_description: A step-by-step guide to building a personal website with a custom domain, HTTPS, and a professional email address — using free tools.
+
+repo_name: Douglasebhoman/personal-website-setup-guide
+repo_url: https://github.com/Douglasebhoman/personal-website-setup-guide
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  font:
+    text: false
+    code: false
+  features:
+    - navigation.instant
+    - navigation.top
+    - navigation.sections
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/brand.css
+
+nav:
+  - Home: index.md
+  - GitHub Pages: github-pages.md
+  - Domain Registration: domain-registration.md
+  - DNS Configuration: dns-configuration.md
+  - Professional Email: professional-email.md
+  - Quick Reference: quick-reference.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - def_list
+  - tables
+  - toc:
+      permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/douglas-ebhoman-757329289
+    - icon: fontawesome/brands/github
+      link: https://github.com/Douglasebhoman
+    - icon: fontawesome/solid/globe
+      link: https://douglasebhoman.com
+
+copyright: '© 2026 Douglas Ebhoman · <a href="https://douglasebhoman.com">douglasebhoman.com</a>'
