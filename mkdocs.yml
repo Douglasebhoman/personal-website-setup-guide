@@ -12,9 +12,9 @@ theme:
     scheme: slate
     primary: custom
     accent: custom
-  font:
-    text: false
-    code: false
+  # false, not text/code: false. Only this stops Material loading Roboto from
+  # Google Fonts; the site falls back to system fonts.
+  font: false
   features:
     - navigation.instant
     - navigation.top
